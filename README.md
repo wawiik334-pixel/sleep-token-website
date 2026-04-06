@@ -15,24 +15,19 @@ Project Structure
   - vessels.html: The "Light" themed member portal featuring a CSS Grid biography section and a functional, styled contact form.
 
 Technical Implementation Snippet: Responsive Logic
-The site features a robust breakpoint system at 768px to handle shifting content:
+The site features a robust breakpoint system at `768px` to handle shifting content:
 
-/* Example of the breakpoint logic used to manage album layouts */
+```css
 @media (max-width: 768px) {
     .album-details {
-    
         flex-direction: column; /* Stacks content for mobile readability */
-        
         align-items: center; 
-        
     }
-    
     .album-details img {
-    
         max-width: 80%; /* Scales assets for smaller viewports */
-        
-    }    
+    }
 }
+```
 
 Setup and Use
   1. Clone the Repo: Ensure all folders (css/, media/) are kept in the same root directory as the HTML files.
