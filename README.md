@@ -17,14 +17,23 @@ Project Structure
 Technical Implementation Snippet: Responsive Logic
 The site features a robust breakpoint system at 768px to handle shifting content:
 /* Example of the breakpoint logic used to manage album layouts */
+
 @media (max-width: 768px) {
+
     .album-details {
+    
         flex-direction: column; /* Stacks content for mobile readability */
+        
         align-items: center; 
+        
     }
+    
     .album-details img {
+    
         max-width: 80%; /* Scales assets for smaller viewports */
+        
     }
+    
 }
 
 Setup and Use
